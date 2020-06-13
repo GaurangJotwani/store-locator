@@ -50,13 +50,9 @@ export class MapContainer extends React.Component {
         selectedPlace: {},
       }));
     }
-    // if (this.props.selectedMarkerIndex === null) {
-    //   this.markerObjects = [];
-    // }
 
     if (prevProps.selectedMarkerIndex !== this.props.selectedMarkerIndex) {
       if (markerObjects.length > 0 && this.props.selectedMarkerIndex) {
-        console.log(this.props.selectedMarkerIndex);
         let markers = markerObjects.slice(
           markerObjects.length - 20,
           markerObjects.length
