@@ -1,0 +1,36 @@
+.store-info-window {
+  font-size: 18px;
+  min-width: 300px;
+  padding: 8px;
+}
+
+.store-info-name {
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: bold;
+}
+
+.store-info-open-status {
+  margin-top: 6px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 8px;
+  color: rgba(0, 0, 0, 0.57);
+}
+
+.store-info-address,
+.store-info-phone {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.store-info-phone a,
+.store-info-address {
+  color: #514c4c;
+  text-decoration: none;
+}
+
+.store-info-phone i,
+.store-info-address i{
+  margin-right: 5px;
+}

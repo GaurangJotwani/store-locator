@@ -1,0 +1,51 @@
+.stores-list-container {
+  position: absolute;
+  z-index: 10;
+  top: 390px;
+  left: 100px;
+  background-color: white;
+  border-radius: 30px;
+  width: 400px;
+  bottom: 20px;
+  display: flex;
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+
+.stores-list {
+  padding-left: 20px;
+  padding-right: 20px;
+  flex-grow: 1;
+  overflow-y: scroll;
+}
+
+.intro {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.enter-zip {
+  color: #514c4c;
+  font-size: 22px;
+}
+
+.find-stores {
+  color: #1985a1;
+  font-size: 20px;
+}
+
+.no-stores-found {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: #514c4c;
+  font-size: 20px;
+}
+
+.store-container-background:hover {
+  background-color: #cccccc87;
+}
