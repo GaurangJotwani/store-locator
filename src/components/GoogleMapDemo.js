@@ -16,6 +16,15 @@ export class MapContainer extends React.Component {
     selectedPlace: {},
   };
 
+  isEqual = (a, b) => {
+    if (a.length !== b.length) return "False";
+    else {
+      // comapring each element of array
+      for (var i = 0; i < a.length; i++) if (a[i] !== b[i]) return "False";
+      return "True";
+    }
+  };
+
   onMarkerClick = (props, marker, e) => {
     this.setState({
       selectedPlace: props,
